@@ -1,6 +1,44 @@
+
 h1 {
     font-family: Georgia, 'Times New Roman';
-    margin-inline: auto;
-    margin-right: 35%;
-    color: aqua;
+    color: #7fa653;
+    text-align: center;
+   
+}
+input {
+    height: 24px;
+    width: 70%;
+    border: 2px solid #7fa653;
+    background-color: #cfe0bc;
+    outline: none;
+    color:  black;
+}
+button {
+    height: 24px;
+    border: 2px;
+    width: 25%;
+    background-color: #7fa653;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    transition: 0,7s;   
+}
+button:hover{
+    background-color: #63783d;
+    height: 28px;
+}
+body {
+    background-color: black;
+    max-width: 400px;
+    margin: 0 auto;
+}
+ul{
+    color: white ;
+}
+li{
+    height: 20px;
+    background-color: #cfe0bc; 
+    opacity: 80%;
+    color: #63783d ; 
+    
 }
