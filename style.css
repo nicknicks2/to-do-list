@@ -3,11 +3,13 @@ h1 {
     font-family: Georgia, 'Times New Roman';
     color: #7fa653;
     text-align: center;
-   
+
 }
 input {
     height: 24px;
     width: 70%;
+    border-width: 3px ;
+    border-radius: 10px;
     border: 2px solid #7fa653;
     background-color: #cfe0bc;
     outline: none;
@@ -16,8 +18,10 @@ input {
 button {
     height: 24px;
     border: 2px;
-    width: 25%;
+    width: 27%;
     background-color: #7fa653;
+    border-width: 3px ;
+    border-radius: 10px;
     outline: none;
     color: black;
     cursor: pointer;
@@ -40,5 +44,13 @@ li{
     background-color: #cfe0bc; 
     opacity: 80%;
     color: #63783d ; 
-    
+    margin: 12px auto;
+    border-width: 2px;
+    border-style:groove;
+    border-radius: 10px;
+    text-align:;
+}
+
+*{
+    outline: 1px solid red !important;
 }
